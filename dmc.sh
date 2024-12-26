@@ -8,3 +8,4 @@ git add UnityPlayer.so
 rm -f gitattributes
 rm -f DMCRP.zip
 chmod +x LAC_Linux_v1.8.x86_64
+DMC-INSTALLATION-SUCCESS.py
