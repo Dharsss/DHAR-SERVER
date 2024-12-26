@@ -9,4 +9,4 @@ rm -f gitattributes
 rm -f DMCRP.zip
 chmod +x LAC_Linux_v1.8.x86_64
 chmod +x DMC-INSTALLATION-SUCCESS.txt
-./DMC-INSTALLATION-SUCCESS.txt
+cat DMC-INSTALLATION-SUCCESS.txt
