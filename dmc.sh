@@ -16,6 +16,7 @@ chmod +x LAC_Linux_v1.8.x86_64
 curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
 echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list
 sudo apt update
+sudo apt upgrade
 sudo apt install playit
 chmod +x DMC-INSTALLATION-SUCCESS.txt
 cat DMC-INSTALLATION-SUCCESS.txt
