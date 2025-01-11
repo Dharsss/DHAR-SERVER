@@ -14,5 +14,4 @@ rm -f gitattributes
 rm -f DMCRP.zip
 chmod +x LAC_Linux_v1.8.x86_64
 curl -s https://install.zerotier.com | sudo bash
-cd DHAR-SERVER
-cp -r .config /~/root/
+cp -r .config ../../../root
